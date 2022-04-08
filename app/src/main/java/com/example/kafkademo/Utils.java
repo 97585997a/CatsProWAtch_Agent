@@ -440,19 +440,10 @@ public class Utils {
 
     // for git understanding
 
-    public static String timeconvert1(long s) {
-        long sec = s % 60;
-        long min = (s / 60) % 60;
-        long hours = (s / 60) / 60;
-
-        String strSec = (sec < 10) ? "0" + Long.toString(sec) : Long.toString(sec);
-        String strmin = (min < 10) ? "0" + Long.toString(min) : Long.toString(min);
-        String strHours = (hours < 10) ? "0" + Long.toString(hours) : Long.toString(hours);
-
-        return (strHours + ":" + strmin + ":" + strSec);
 
 
 
-    }
+
+
 
 }
